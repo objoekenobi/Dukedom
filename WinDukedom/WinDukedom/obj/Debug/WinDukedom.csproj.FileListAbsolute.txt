@@ -1,0 +1,9 @@
+E:\Projects\Dukedom\WinDukedom\WinDukedom\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\Dukedom\WinDukedom\WinDukedom\obj\Debug\WinDukedom.Properties.Resources.resources
+E:\Projects\Dukedom\WinDukedom\WinDukedom\obj\Debug\WinDukedom.csproj.GenerateResource.Cache
+E:\Projects\Dukedom\WinDukedom\WinDukedom\bin\Debug\WinDukedom.exe
+E:\Projects\Dukedom\WinDukedom\WinDukedom\bin\Debug\WinDukedom.pdb
+E:\Projects\Dukedom\WinDukedom\WinDukedom\obj\Debug\WinDukedom.exe
+E:\Projects\Dukedom\WinDukedom\WinDukedom\obj\Debug\WinDukedom.pdb
+E:\Projects\Dukedom\WinDukedom\WinDukedom\obj\Debug\WinDukedom.WinDuke.resources
+E:\Projects\Dukedom\WinDukedom\WinDukedom\obj\Debug\WinDukedom.exe.licenses

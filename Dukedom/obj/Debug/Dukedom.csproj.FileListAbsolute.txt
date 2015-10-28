@@ -1,0 +1,13 @@
+C:\Documents and Settings\Joe.obrien\My Documents\Visual Studio 2008\Projects\Dukedom\Dukedom\obj\Debug\ResolveAssemblyReference.cache
+E:\Personal\Dukedom\Dukedom\obj\Debug\ResolveAssemblyReference.cache
+E:\Personal\Dukedom\Dukedom\bin\Debug\Dukedom.exe
+E:\Personal\Dukedom\Dukedom\bin\Debug\Dukedom.pdb
+E:\Personal\Dukedom\Dukedom\obj\Debug\Dukedom.exe
+E:\Personal\Dukedom\Dukedom\obj\Debug\Dukedom.pdb
+E:\Projects\Dukedom\Dukedom\obj\Debug\Dukedom.exe
+E:\Projects\Dukedom\Dukedom\obj\Debug\Dukedom.pdb
+E:\Projects\Dukedom\Dukedom\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\Dukedom\Dukedom\bin\Debug\Dukedom.exe
+E:\Projects\Dukedom\Dukedom\bin\Debug\Dukedom.pdb
+E:\Projects\Dukedom\Dukedom\obj\Debug\Dukedom.Properties.Resources.resources
+E:\Projects\Dukedom\Dukedom\obj\Debug\Dukedom.csproj.GenerateResource.Cache

@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TearDownComponent">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" />
+                <xs:element name="Text" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TearDownDefect">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" />
+                <xs:element name="Text" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="HeadObservationLocation">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" />
+                <xs:element name="Text" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="HeadObservationDefect">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" />
+                <xs:element name="Text" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="MediaObservationLocation">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" />
+                <xs:element name="Text" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="MediaObservationDefect">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" />
+                <xs:element name="Text" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="pkTDC" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//TearDownComponent" />
+        <xs:field xpath="ID" />
+      </xs:unique>
+      <xs:unique name="pkTDD" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//TearDownDefect" />
+        <xs:field xpath="ID" />
+      </xs:unique>
+      <xs:unique name="pkHOL" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//HeadObservationLocation" />
+        <xs:field xpath="ID" />
+      </xs:unique>
+      <xs:unique name="pkHOD" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//HeadObservationDefect" />
+        <xs:field xpath="ID" />
+      </xs:unique>
+      <xs:unique name="pkMOL" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//MediaObservationLocation" />
+        <xs:field xpath="ID" />
+      </xs:unique>
+      <xs:unique name="pkMOD" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//MediaObservationDefect" />
+        <xs:field xpath="ID" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <TearDownComponent>
+    <ID>0</ID>
+    <Text>Top cover</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>1</ID>
+    <Text>Top cover screw</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>2</ID>
+    <Text>Seal tape</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>3</ID>
+    <Text>FIPG Gasket</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>4</ID>
+    <Text>Absorbent breather Filter</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>5</ID>
+    <Text>HSA arm</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>6</ID>
+    <Text>VCM coil</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>7</ID>
+    <Text>HSA preamp</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>8</ID>
+    <Text>HSA connector</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>9</ID>
+    <Text>HSA pivot</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>10</ID>
+    <Text>HSA bonding pads</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>11</ID>
+    <Text>HSA screw</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>12</ID>
+    <Text>Balance weight</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>13</ID>
+    <Text>Arm damper</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>14</ID>
+    <Text>HSA gasket seal</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>15</ID>
+    <Text>Slider Suspension</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>16</ID>
+    <Text>Top VCM plate</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>17</ID>
+    <Text>Bottom VCM plate</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>18</ID>
+    <Text>VCM screw</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>19</ID>
+    <Text>Latch hole</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>20</ID>
+    <Text>Latch (outside)</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>21</ID>
+    <Text>IDCS</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>22</ID>
+    <Text>ODCS</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>23</ID>
+    <Text>Disk clamp</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>24</ID>
+    <Text>Anti disk (PC)</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>25</ID>
+    <Text>Disk clamp screw</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>26</ID>
+    <Text>Disk spacer (SST400)</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>27</ID>
+    <Text>Disk spacer (Aluminum)</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>28</ID>
+    <Text>Disk spacer (Titanium)</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>29</ID>
+    <Text>Disk surface</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>30</ID>
+    <Text>MBA-Base plate</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>31</ID>
+    <Text>MBA-Latch pin</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>32</ID>
+    <Text>MBA-HSA post</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>33</ID>
+    <Text>Recirculation filter</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>34</ID>
+    <Text>MBA-Red dot</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>35</ID>
+    <Text>Motor flange</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>36</ID>
+    <Text>Motor hub</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>37</ID>
+    <Text>MBA-Connector slot</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>38</ID>
+    <Text>MBA-Ramp sitting area</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>39</ID>
+    <Text>MBA-Ram pin</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>40</ID>
+    <Text>MBA-Label</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>41</ID>
+    <Text>MBA-Balance wire</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>42</ID>
+    <Text>MBA-Balance plug</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>43</ID>
+    <Text>MBA-IDCS pin</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>44</ID>
+    <Text>MBA-ODCS pin</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>45</ID>
+    <Text>MBA-Backside rib</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>46</ID>
+    <Text>MBA-Filter canister</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>47</ID>
+    <Text>Ramp</Text>
+  </TearDownComponent>
+  <TearDownComponent>
+    <ID>48</ID>
+    <Text>Anti disk (Aluminum)</Text>
+  </TearDownComponent>
+
+  <TearDownDefect>
+    <ID>0</ID>
+    <Text>Scratch</Text>
+  </TearDownDefect>
+  <TearDownDefect>
+    <ID>1</ID>
+    <Text>Stain</Text>
+  </TearDownDefect>
+  <TearDownDefect>
+    <ID>2</ID>
+    <Text>Discoloration</Text>
+  </TearDownDefect>
+  <TearDownDefect>
+    <ID>3</ID>
+    <Text>Dent</Text>
+  </TearDownDefect>
+  <TearDownDefect>
+    <ID>4</ID>
+    <Text>Wear</Text>
+  </TearDownDefect>
+  <TearDownDefect>
+    <ID>5</ID>
+    <Text>Rough Surface</Text>
+  </TearDownDefect>
+
+  <HeadObservationLocation>
+    <ID>0</ID>
+    <Text>ID_LE</Text>
+  </HeadObservationLocation>
+  <HeadObservationLocation>
+    <ID>1</ID>
+    <Text>ID_TE</Text>
+  </HeadObservationLocation>
+  <HeadObservationLocation>
+    <ID>2</ID>
+    <Text>OD_LE</Text>
+  </HeadObservationLocation>
+  <HeadObservationLocation>
+    <ID>3</ID>
+    <Text>OD_TE</Text>
+  </HeadObservationLocation>
+  <HeadObservationLocation>
+    <ID>4</ID>
+    <Text>Center pad</Text>
+  </HeadObservationLocation>
+  <HeadObservationLocation>
+    <ID>5</ID>
+    <Text>Entire ABS surface</Text>
+  </HeadObservationLocation>
+  <HeadObservationLocation>
+    <ID>6</ID>
+    <Text>Mid channel</Text>
+  </HeadObservationLocation>
+  <HeadObservationLocation>
+    <ID>7</ID>
+    <Text>Writer area</Text>
+  </HeadObservationLocation>
+  <HeadObservationLocation>
+    <ID>8</ID>
+    <Text>Reader area</Text>
+  </HeadObservationLocation>
+  <HeadObservationLocation>
+    <ID>9</ID>
+    <Text>Shields</Text>
+  </HeadObservationLocation>
+
+  <HeadObservationDefect>
+    <ID>0</ID>
+    <Text>ABS defect</Text>
+  </HeadObservationDefect>
+  <HeadObservationDefect>
+    <ID>1</ID>
+    <Text>Carbon wear</Text>
+  </HeadObservationDefect>
+  <HeadObservationDefect>
+    <ID>2</ID>
+    <Text>Chipping</Text>
+  </HeadObservationDefect>
+  <HeadObservationDefect>
+    <ID>3</ID>
+    <Text>Corrosion</Text>
+  </HeadObservationDefect>
+  <HeadObservationDefect>
+    <ID>4</ID>
+    <Text>Crack</Text>
+  </HeadObservationDefect>
+  <HeadObservationDefect>
+    <ID>5</ID>
+    <Text>De-lamination</Text>
+  </HeadObservationDefect>
+  <HeadObservationDefect>
+    <ID>6</ID>
+    <Text>ESD damage</Text>
+  </HeadObservationDefect>
+  <HeadObservationDefect>
+    <ID>7</ID>
+    <Text>Head to head contact</Text>
+  </HeadObservationDefect>
+  <HeadObservationDefect>
+    <ID>8</ID>
+    <Text>Lapping scratch</Text>
+  </HeadObservationDefect>
+  <HeadObservationDefect>
+    <ID>9</ID>
+    <Text>Rough sidewall cut</Text>
+  </HeadObservationDefect>
+  <HeadObservationDefect>
+    <ID>10</ID>
+    <Text>Head scoring</Text>
+  </HeadObservationDefect>
+  <HeadObservationDefect>
+    <ID>11</ID>
+    <Text>Head abrasion</Text>
+  </HeadObservationDefect>
+  <HeadObservationDefect>
+    <ID>12</ID>
+    <Text>Suspension damage</Text>
+  </HeadObservationDefect>
+  <HeadObservationDefect>
+    <ID>13</ID>
+    <Text>Tooling scratch</Text>
+  </HeadObservationDefect>
+  <HeadObservationDefect>
+    <ID>14</ID>
+    <Text>Void</Text>
+  </HeadObservationDefect>
+
+  <MediaObservationLocation>
+    <ID>0</ID>
+    <Text>OD edge</Text>
+  </MediaObservationLocation>
+  <MediaObservationLocation>
+    <ID>1</ID>
+    <Text>LUL</Text>
+  </MediaObservationLocation>
+  <MediaObservationLocation>
+    <ID>2</ID>
+    <Text>OD</Text>
+  </MediaObservationLocation>
+  <MediaObservationLocation>
+    <ID>3</ID>
+    <Text>MD</Text>
+  </MediaObservationLocation>
+  <MediaObservationLocation>
+    <ID>4</ID>
+    <Text>ID</Text>
+  </MediaObservationLocation>
+  <MediaObservationLocation>
+    <ID>5</ID>
+    <Text>Clamping area</Text>
+  </MediaObservationLocation>
+  <MediaObservationLocation>
+    <ID>6</ID>
+    <Text>ID edge</Text>
+  </MediaObservationLocation>
+
+  <MediaObservationDefect>
+    <ID>0</ID>
+    <Text>Scratch</Text>
+  </MediaObservationDefect>
+  <MediaObservationDefect>
+    <ID>1</ID>
+    <Text>Stain</Text>
+  </MediaObservationDefect>
+  <MediaObservationDefect>
+    <ID>2</ID>
+    <Text>Discoloration</Text>
+  </MediaObservationDefect>
+  <MediaObservationDefect>
+    <ID>3</ID>
+    <Text>Dent</Text>
+  </MediaObservationDefect>
+  <MediaObservationDefect>
+    <ID>4</ID>
+    <Text>Wear</Text>
+  </MediaObservationDefect>
+  <MediaObservationDefect>
+    <ID>5</ID>
+    <Text>Rough surface</Text>
+  </MediaObservationDefect>
+</NewDataSet>
